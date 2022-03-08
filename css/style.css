@@ -1,0 +1,172 @@
+@media only screen and (min-width: 0px) and (max-width:1000px){
+    
+    body{
+        background-image: url(../img/machine.jpg);
+        background-repeat: no-repeat;
+        background-color: #e1e5e6;
+    }
+    
+    .machine{
+        margin-top: 150px;
+
+    }
+    /* Texto usuario */
+    .charlaUsuario{
+        background-color: rgb(216, 216, 216);
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;
+        border-radius: 50px;
+        overflow-y: auto;
+        box-shadow: -5px 5px 10px 1px rgb(160, 160, 160);
+    
+    }
+    
+    .textoUsuario{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    /* Fin de texto usuario */
+    
+    /* Texto machine */
+    .charlaMachine{
+        margin-top: 25px;
+        background-color: rgb(216, 216, 216);
+        width: 400px;
+        height: 220px;
+        border-radius: 100px;
+        box-shadow: -5px 5px 10px 1px rgb(160, 160, 160);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .box-textoMachine{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .textoMachine{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+    /* Fin de texto Machine */
+    
+    .box-inputUsuario{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .inputUsuario{
+        width: 250px;
+        height: 30px;
+        border-radius: 50px;
+        border: 2px ;
+        background-color: rgb(103, 104, 97);
+        color: rgb(255, 255, 255);
+    }
+    .box-boton{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .boton{
+        width: 70px;
+        border-radius: 50px;
+        border: hidden ;
+        background-color: rgb(103, 104, 97);
+        color: #ffffff;
+    }
+
+}
+
+@media only screen and (min-width: 1000px){
+
+body{
+    background-image: url(../img/machine.jpg);
+    background-repeat: no-repeat;
+    background-color: #e1e5e6;
+}
+
+.machine{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: auto;
+
+}
+/* Texto usuario */
+.charlaUsuario{
+    background-color: rgb(216, 216, 216);
+    width: 400px;
+    margin-left: auto;
+    height: 100px;
+    border-radius: 50px;
+    overflow-y: auto;
+    box-shadow: -5px 5px 10px 1px rgb(160, 160, 160);
+
+}
+
+.textoUsuario{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+/* Fin de texto usuario */
+
+/* Texto machine */
+.charlaMachine{
+    margin-top: 25px;
+    background-color: rgb(216, 216, 216);
+    width: 520px;
+    height: 170px;
+    border-radius: 100px;
+    box-shadow: -5px 5px 10px 1px rgb(160, 160, 160);
+}
+
+.box-textoMachine{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.textoMachine{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+/* Fin de texto Machine */
+
+.box-inputUsuario{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.inputUsuario{
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px ;
+    background-color: rgba(103, 104, 97, 0.308);
+}
+.box-boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.boton{
+    width: 100px;
+    border-radius: 50px;
+    border: hidden ;
+    background-color: rgba(103, 104, 97, 0.308);
+}
+
+}

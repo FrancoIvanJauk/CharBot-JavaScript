@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fin de css -->
+</head>
+<body >
+    <main>
+    <div class="machine">
+        <div class="charlaUsuario">
+            <div class="box-textoUsuario">
+                <label for="textoUsuario">
+                    <p class="textoUsuario" id="usuario"></p>
+                </label>
+            </div>
+        </div>
+
+        <div class="charlaMachine">
+            <div class="box-textoMachine">
+                <label for="textMachine">
+                    <p class="textoMachine" id="respuesta">Escribe abajo para interactuar conmigo</p>
+                </label>
+            </div>
+        </div>
+            <div class="box-inputUsuario">
+                <label for="inputUsuario">
+                    <input class="inputUsuario" id="text" type="text">
+                </label>
+            </div>
+        
+            <div class="box-boton">
+                <button class="boton" id="enviar" type="button" onclick = "machine()"> Enviar </button>
+            </div>
+    </div>
+    </main> 
+
+    <!-- Libreria horario -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <!-- Fin de libreria horario -->
+
+    <!-- Java Script -->
+    <script src="Java-Script/script.js"></script>
+    <script src="Java-Script/conversaciones.js"></script>
+    <script src="Java-Script/juego.js"></script>
+    <!-- fin de Java Script-->
+
+</body>
+</html>
